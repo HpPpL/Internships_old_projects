@@ -1,0 +1,5 @@
+Вертикальная :
+<div style="height:30px; width:560px; border-left:2px solid #cc0033; background-color:#fc9; padding-left:10px">Пример вертикальной линии красного цвета слева. 
+</div>
+Горизонатльная :
+<hr size=1px width=1500px align="left">

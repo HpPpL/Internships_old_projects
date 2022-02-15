@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>Пробный сайт</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+  <META name="author" content="Имя Фамилия">
+  <META name="keywords" content="HTML, WWW, Web, паутина, поиск, определение">
+  <META HTTP-EQUIV="Page-Enter" CONTENT="revealTrans(Duration=4.0,Transition=1)">  
+</head>
+
+<body style="color: #A9A9A9; background-color: #E0FFFF">
+
+
+</body>
+
+</html>
