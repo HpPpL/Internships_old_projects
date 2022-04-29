@@ -120,24 +120,48 @@
 # db.sort(key=lambda db: db[1])
 # for i in range(n):
 #     print(db[n-1-i][0])
-# 8
+# 8. Тут будет 2 балдежных момента : rsplit ; z.split()[-3:].
 #
 #
 # def SumBal(z):
-#     a = z.split()[-3:]
-#     z = 0
-#     for d in a:
-#         if int(d) < 40:
-#             z = 0
-#             break
-#         else:
-#             z += int(d)
-#     return z
-fin = open('input.txt', 'r', encoding='utf8')
-k = int(fin.readline())
-lines = fin.readlines()
-db = []
-for i in lines:
-    tmpData = lines[i].split()
-    print(tmpData)
-
+#     tmpLst = z.rsplit(maxsplit=3)
+#     if int(tmpLst[1]) >= 40 and int(tmpLst[2]) >= 40 and int(tmpLst[3]) >= 40:
+#         return int(tmpLst[1]) + int(tmpLst[2]) + int(tmpLst[3])
+#     else:
+#         return -1
+#
+#
+# fin = open('input.txt', 'r', encoding='utf8')
+# fout = open('output.txt', 'w', encoding='utf8')
+# k = int(fin.readline())
+# lines = fin.readlines()
+# db = [0] * 301
+# ne_proh = 0
+#
+# for s in lines:
+#     tmpStr = s[0:len(s)-1]
+#     tmpZn = SumBal(tmpStr)
+#     if tmpZn != -1:
+#         db[tmpZn] += 1
+#     else:
+#         ne_proh += 1
+#
+# cntrl = 0
+# pr_ball = 301
+# i = 300
+#
+# while i >= 120 and cntrl + db[i] <= k:
+#     if db[i] != 0:
+#         pr_ball = i
+#         cntrl += db[i]
+#     i -= 1
+# if i == 119 and cntrl <= k:
+#     print(0, file=fout)
+# elif pr_ball == 301 and db[i] > k:
+#     print(1, file=fout)
+# else:
+#     print(pr_ball, file=fout)
+#
+# fin.close()
+# fout.close()
+#

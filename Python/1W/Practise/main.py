@@ -1,8 +1,8 @@
 # 1:
 # name = input()
 # print('Hello, ', name, '!', sep='')
-# n = int(input())
 # 2:
+# n = int(input())
 # s1 = '   _~_    '
 # s2 = '  (o o)   '
 # s3 = ' /  V  \  '
